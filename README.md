@@ -15,10 +15,10 @@ Then, please remember to:
 4. modify the number of observation in Brain.
 
 Note: we used the tennis scenario for training process, so please look at the four types of observation spaces below as an example:
-trainer_HRL: 8 vectors (t, t-1).
-trainer_HRL_Ob: 10 vectors.
-trainer_HRL_Obo: 10 vectors (t, t-1).
-trainer_time_HRL_Obo: 10 vectors with 5-time steps interval.
+1. trainer_HRL: 8 vectors (t, t-1).
+2. trainer_HRL_Ob: 10 vectors.
+3. trainer_HRL_Obo: 10 vectors (t, t-1).
+4. trainer_time_HRL_Obo: 10 vectors with 5-time steps interval.
 
 Reference:
 1. Z. Cao and C.T Lin (2019) Hierarchical Critics Assignment for Multi-agent Reinforcement Learning.
