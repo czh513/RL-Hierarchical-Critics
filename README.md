@@ -22,4 +22,4 @@ Note: we used the tennis scenario for training process, so please look at the fo
 
 Reference:
 1. Z. Cao and C.T Lin (2019) Hierarchical Critics Assignment for Multi-agent Reinforcement Learning.
-https://arxiv.org/abs/2569.0789
+https://arxiv.org/pdf/1902.03079.pdf
