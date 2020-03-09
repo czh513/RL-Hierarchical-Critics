@@ -1,4 +1,4 @@
-# Hierarchical-Critics-Assignment-for-Multi-agent-Reinforcement-Learning
+# Reinforcement Learning from Hierarchical Critics
 Multi-agent Reinforcement Learning
 
 The Unity platform, a new open-source toolkit, has been used for creating and interacting with simulation environments. To be specific, the Unity Machine Learning Agents Toolkit (ML- Agents Toolkit) [Juliani et al., 2018] is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. 
