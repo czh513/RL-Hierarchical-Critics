@@ -1,10 +1,11 @@
 # Reinforcement Learning from Hierarchical Critics
-Multi-agent Reinforcement Learning
+(Multi-agent) Hierarchical Reinforcement Learning
 
 The Unity platform, a new open-source toolkit, has been used for creating and interacting with simulation environments. To be specific, the Unity Machine Learning Agents Toolkit (ML- Agents Toolkit) [Juliani et al., 2018] is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. 
 It supports dynamic multi-agent interaction and agents can be trained using reinforcement learning through a simple-to-use Python API.
 
-This code is modified by the baseline algorithm in the ML- Agents Toolkit, named Asynchronous Advantage Actor- Critic (A3C) with Proximal Policy Optimization (PPO) algorithm, A3C-PPO. We investigate the use of global information to speed up the learning process and increase the cumulative rewards of multiagent re- inforcement learning (MARL) tasks. Within the actor-critic MARL, we introduce multiple cooperative critics from two levels of the hierarchy and propose a hierarchical critic-based multi-agent reinforcement learning algorithm. 
+This code is modified by the baseline algorithm in the ML- Agents Toolkit, named Asynchronous Advantage Actor-Critic (A3C) with Proximal Policy Optimization (PPO) algorithm, A3C-PPO. We investigate the use of global information to speed up the learning process and increase the cumulative rewards of multiagent reinforcement learning (MARL) tasks. Within the actor-critic MARL, we introduce multiple cooperative critics from two levels of the hierarchy and propose a hierarchical critic-based multi-agent reinforcement learning algorithm. 
+
 In our approach, the agent is allowed to receive information from local and global critics in a competition task. The agent not only receives low-level details but also consider coordination from high levels that receiving global information to increase operation skills. Here, we define multiple cooperative critics in the top-bottom hierarchy, called the Hierarchical Critics framework. It has been used in a tennis scenario and it can extend to complex environment.
 
 Before using this code in Unity, please download the ML- Agents Toolkit first.
@@ -22,4 +23,4 @@ Note: we used the tennis scenario for training process, so please look at the fo
 
 Reference:
 1. Z. Cao and C.T Lin (2019) Reinforcement Learning from Hierarchical Critics.
-https://arxiv.org/pdf/1902.03079.pdf
+https://arxiv.org/abs/1902.03079.
