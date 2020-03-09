@@ -21,6 +21,6 @@ Note: we used the tennis scenario for training process, so please look at the fo
 3. trainer_HRL_Obo: 10 vectors (t, t-1).
 4. trainer_time_HRL_Obo: 10 vectors with 5-time steps interval.
 
-Reference:
+Reference: (please cite it if you use this code for further studies):
 1. Z. Cao and C.T Lin (2019) Reinforcement Learning from Hierarchical Critics.
 https://arxiv.org/abs/1902.03079.
